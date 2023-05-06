@@ -215,6 +215,6 @@ class RVCFeatureExtractor(Wav2Vec2FeatureExtractor):
         """
         output = super().to_dict()
 
-        output.pop("_f0_extractor", None)f
+        output.pop("_f0_extractor", None)
 
         return output
